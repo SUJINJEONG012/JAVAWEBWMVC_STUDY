@@ -1,4 +1,4 @@
-package org.sujin.w1.Controller;
+package org.sujin.w1.calc;
 
 import org.springframework.stereotype.Controller;
 

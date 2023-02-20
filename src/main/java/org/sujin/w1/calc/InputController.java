@@ -1,4 +1,4 @@
-package org.sujin.w1.Controller;
+package org.sujin.w1.calc;
 
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 //Get 방식 호출
 
 @WebServlet(name="inputController", urlPatterns="/calc/input")
-public class CalcInputController extends HttpServlet {
+public class InputController extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException , IOException {
