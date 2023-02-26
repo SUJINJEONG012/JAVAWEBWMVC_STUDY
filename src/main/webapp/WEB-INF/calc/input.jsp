@@ -8,10 +8,11 @@
 </head>
 <body>
 
-<form action="calcResult.jsp" method="post">
-<input type="number" name="num1">
-<input type="number" name="num2">
-<button type="submit">SEND</button>
+<form action="/calc/makeResult" method="post">
+ <input type="number" name="num1">
+ <input type="number" name="num2">
+ <button type="submit">SEND</button>
 </form>
+
 </body>
 </html>

@@ -9,6 +9,6 @@
 <body>
 <h1> <%= "Hello World" %></h1>
 
-<a href="hello-servelt">hello-servelt</a>
+<a href="hello-servlet">hello-servelt</a>
 </body>
 </html>

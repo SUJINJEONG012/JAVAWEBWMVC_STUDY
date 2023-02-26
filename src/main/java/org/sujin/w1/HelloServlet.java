@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name="heeloServlet" , value="/hello-servlet")
+@WebServlet(name="helloServlet" , value="/hello-servlet")
 public class HelloServlet extends HttpServlet {
 	
 	private String message;
